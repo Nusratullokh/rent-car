@@ -7,7 +7,7 @@ const Home = () => {
     console.log(data?.payload)
 
   return (
-    <div>
+    <div className="container flex items-center m-auto justify-between pl-[50px]">
         <Cars data={data?.payload} isLoading={isLoading} title={"Popular cars"} />
     </div>
   )

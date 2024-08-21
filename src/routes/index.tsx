@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom"
 import Home from "./home/Home"
+import Singlepage from "./singlePage/SinglePage"
 
 const RouteController = () => {
   return useRoutes([
@@ -10,6 +11,10 @@ const RouteController = () => {
     {
       path: "dashboard",
       element: <div>Dashboard</div>
+    },
+    {
+      path: "cars/:id",
+      element: <Singlepage/>
     }
   ])
 }

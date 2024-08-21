@@ -38,3 +38,8 @@ export type FetchCar = {
     message: string,
     payload: Car[]
 }
+
+export type FetchCarSingle = {
+    message: string;
+    payload: Car; 
+  };
