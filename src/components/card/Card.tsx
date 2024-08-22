@@ -12,7 +12,7 @@ const CardComponent = ({car} : {car: Car}) => {
     <div className="title-like flex items-center justify-between">
         <Link to={`/cars/${car._id}`} className='title'>
           <h2><b>{car.name}</b></h2>
-          <p className='text-[#596780] text-[12px]'>Car</p>
+          <p className='text-[#596780] text-[12px]'>{car.model}</p>
         </Link>
         <button className='like'>
           

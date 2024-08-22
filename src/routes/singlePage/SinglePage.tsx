@@ -39,6 +39,7 @@ const Singlepage = () => {
                 <div className="header w-full flex justify-between">
                     <div className="name-review flex flex-col ">
                         <h2 className="text-[32px] text-[#1A202C] font-bold">{carData?.name}</h2>
+                        <h4 className="text-[32px] text-[#1A202C] font-bold">{carData?.model}</h4>
                         <div className="flex items-center gap-2">
                             <span className="flex items-center gap-0.5"><AiFillStar className="text-[gold]" /><AiFillStar className="text-[gold]" /><AiFillStar className="text-[gold]" /><AiFillStar className="text-[gold]" /><AiOutlineStar className="text-[gold]" /></span>
                             <small>450+ reviews</small>
